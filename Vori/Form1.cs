@@ -241,7 +241,8 @@ namespace Vori
                 var NeiroDialog = MessageBox.Show("Вори услышал - '" + HeardWord + "', это правда?", "Нейронная сеть.", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (NeiroDialog == DialogResult.No)
                 {
-                    var NeiroDialog2 = MessageBox.Show("Введите правильную фразу:", "Нейронная сеть.", MessageBoxButtons.OKCancel ,MessageBoxIcon.Asterisk);
+                    Program.NeiroNetF = new NeiroNet();
+                    Program.NeiroNetF.Visible = true;
                 }
             }
         }

@@ -16,6 +16,7 @@ namespace Vori
 
         //public static Form NameF;
         public static Form VoriF;
+        public static Form NeiroNetF;
 
         public static string RootText = "Активированы root права!";
         public static bool RootOn = false;
