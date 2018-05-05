@@ -1,0 +1,13 @@
+D:\Папки\Мои программы\Проэкты\Vori\Vori\bin\Debug\Vori.exe.config
+D:\Папки\Мои программы\Проэкты\Vori\Vori\bin\Debug\Vori.exe
+D:\Папки\Мои программы\Проэкты\Vori\Vori\bin\Debug\Vori.pdb
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.csprojResolveAssemblyReference.cache
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.Properties.Resources.resources
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.csproj.GenerateResource.cache
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.csproj.CoreCompileInputs.cache
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.exe
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.pdb
+D:\Папки\Мои программы\Проэкты\Vori\Vori\bin\Debug\Microsoft.Speech.dll
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.MainForm.resources
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.csproj.CopyComplete
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.NameForm.resources
