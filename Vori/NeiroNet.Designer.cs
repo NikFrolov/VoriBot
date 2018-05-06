@@ -45,6 +45,7 @@
             this.NeiroLearnTextBox.Name = "NeiroLearnTextBox";
             this.NeiroLearnTextBox.Size = new System.Drawing.Size(470, 20);
             this.NeiroLearnTextBox.TabIndex = 0;
+            this.NeiroLearnTextBox.Text = "\"\"";
             // 
             // NeiroLearnButton
             // 
@@ -80,6 +81,7 @@
             this.BuildAnAnswerButton.TabIndex = 3;
             this.BuildAnAnswerButton.Text = "Автоматически построить ответ\r\n";
             this.BuildAnAnswerButton.UseVisualStyleBackColor = false;
+            this.BuildAnAnswerButton.Click += new System.EventHandler(this.BuildAnAnswerButton_Click);
             // 
             // WrongLearnAnswerButton
             // 
@@ -91,6 +93,7 @@
             this.WrongLearnAnswerButton.TabIndex = 4;
             this.WrongLearnAnswerButton.Text = "Неверный ответ! Перегенирировать!\r\n";
             this.WrongLearnAnswerButton.UseVisualStyleBackColor = false;
+            this.WrongLearnAnswerButton.Click += new System.EventHandler(this.WrongLearnAnswerButton_Click);
             // 
             // HelpingButton
             // 
@@ -108,9 +111,9 @@
             this.NeiroAnswerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NeiroAnswerLabel.Location = new System.Drawing.Point(12, 64);
             this.NeiroAnswerLabel.Name = "NeiroAnswerLabel";
-            this.NeiroAnswerLabel.Size = new System.Drawing.Size(142, 22);
+            this.NeiroAnswerLabel.Size = new System.Drawing.Size(154, 22);
             this.NeiroAnswerLabel.TabIndex = 6;
-            this.NeiroAnswerLabel.Text = "Премер ответа.";
+            this.NeiroAnswerLabel.Text = "\"Премер ответа.\"";
             // 
             // KeyWordButton
             // 
