@@ -12,6 +12,9 @@ namespace Vori
 {
     public partial class NameForm : Form
     {
+        int XWindow = 268;
+        int YWindow = 184;
+
         public NameForm()
         {
             InitializeComponent();
@@ -33,9 +36,17 @@ namespace Vori
                 {
                     GRButton.Visible = true;
 
+                    PasswordTextBox.Visible = true;
+
+                    NameTextBox.Enabled = false;
+
                     ReadyButton.Visible = false;
 
-                    MessageBox.Show("У вас нет права доступа к root правам! Введите пароль в то-же окно, что и имя!", "Ошибка!");
+                    this.Size = new Size(XWindow, YWindow);
+                    this.MaximumSize = new Size(XWindow, YWindow);
+                    this.MinimumSize = new Size(XWindow, YWindow);
+
+                    MessageBox.Show("У вас нет права доступа к root правам! Введите пароль в нижнее поле!", "Ошибка!");
                 }
                 else
                 {
@@ -52,7 +63,7 @@ namespace Vori
 
         private void GRButton_Click(object sender, EventArgs e)
         {
-            if (NameTextBox.Text == "6dx3aG5w5kMMgEBPLCdi")
+            if (PasswordTextBox.Text == "6dx3aG5w5kMMgEBPLCdi")
             {
                 Program.RootOn = true;
 

@@ -12,3 +12,4 @@ D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.
 D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.csproj.CopyComplete
 D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.NameForm.resources
 D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.NeiroNet.resources
+D:\Папки\Мои программы\Проэкты\Vori\Vori\obj\Debug\Vori.Starting.resources

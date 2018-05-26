@@ -25,6 +25,21 @@ namespace Vori
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Starting StartingF = new Starting();
+
+            DateTime end = DateTime.Now + TimeSpan.FromSeconds(5);
+
+            StartingF.Show();
+
+            while (end > DateTime.Now)
+            {
+                Application.DoEvents();
+            }
+
+            StartingF.Close();
+            StartingF.Dispose();
+
             Application.Run(new NameForm());
         }
     }

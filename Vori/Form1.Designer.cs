@@ -69,6 +69,7 @@
             // 
             this.CloseButton.BackColor = System.Drawing.Color.DarkRed;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CloseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CloseButton.ForeColor = System.Drawing.Color.White;
             this.CloseButton.Location = new System.Drawing.Point(340, 1);
             this.CloseButton.Name = "CloseButton";
@@ -82,6 +83,7 @@
             // 
             this.RefishButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.RefishButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RefishButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RefishButton.ForeColor = System.Drawing.Color.Black;
             this.RefishButton.Location = new System.Drawing.Point(250, 1);
             this.RefishButton.Name = "RefishButton";
@@ -93,7 +95,7 @@
             // 
             // HeardWorldLabel
             // 
-            this.HeardWorldLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.HeardWorldLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.HeardWorldLabel.Location = new System.Drawing.Point(0, 27);
             this.HeardWorldLabel.Name = "HeardWorldLabel";
             this.HeardWorldLabel.Size = new System.Drawing.Size(363, 328);
